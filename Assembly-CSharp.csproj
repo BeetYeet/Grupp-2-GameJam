@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletMovement.cs" />
+    <Compile Include="Assets\Scripts\DamageInfo.cs" />
     <Compile Include="Assets\Scripts\Faction.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/alfred.engstromer/Grupp2 GameJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
