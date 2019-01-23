@@ -1,9 +1,8 @@
 *.meta
-Library/metadata/
-Library/PackageCache/
-Library/ShaderCache/
+Library/*
 Temp/
-obj/Debug/
-Library/StateCache/
-Library/ScriptAssemblies/
+obj/
 .vs/
+*.csproj
+Grupp-2-GameJam.sln
+Logs/
