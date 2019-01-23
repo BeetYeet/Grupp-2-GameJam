@@ -3,3 +3,7 @@ Library/metadata/
 Library/PackageCache/
 Library/ShaderCache/
 Temp/
+obj/Debug/
+Library/StateCache/
+Library/ScriptAssemblies/
+.vs/
