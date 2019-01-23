@@ -121,6 +121,8 @@ GameObject:
   - component: {fileID: 3499954451132134089}
   - component: {fileID: 2980046253955050567}
   - component: {fileID: 1872761016041923098}
+  - component: {fileID: 6843115832382926217}
+  - component: {fileID: 8957589617848379393}
   m_Layer: 0
   m_Name: SpaceCraft
   m_TagString: Untagged
@@ -236,3 +238,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.66, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &6843115832382926217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693624176016796230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f832366eb130dff4fb4dbca71d9825cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 2
+--- !u!50 &8957589617848379393
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693624176016796230}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

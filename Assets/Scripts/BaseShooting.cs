@@ -25,7 +25,7 @@ public class BaseShooting : MonoBehaviour
     void Update()
     {
         fireCooldown -= Time.deltaTime;
-        if(Input.GetButton("Fire1"))
+        if(Input.GetButton("Fire1") && fireCooldown <= 0)
         {
             Shooter();
         }
