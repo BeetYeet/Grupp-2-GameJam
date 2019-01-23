@@ -3,3 +3,5 @@ Library/metadata/
 Library/PackageCache/
 Library/ShaderCache/
 Temp/
+.vs/
+obj/
