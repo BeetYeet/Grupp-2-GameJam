@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Range(1,20)]
-    public float movementSpeed;
+    [Range(1f,20f)]
+    public float movementSpeed = 2;
 
     Vector2 movement;
     Rigidbody2D rb;
