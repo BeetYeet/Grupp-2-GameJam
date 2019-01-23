@@ -9,10 +9,11 @@ public class BaseShooting : MonoBehaviour
     public float projectileSpeed;
     public float firerate;
     private float fireCooldown = 0.1f;
+	public Faction.Side side;
 
-    [Header("Linkings")]
+	[Header("Linkings")]
     public GameObject projectile;
-    public GameObject spawnPoint;
+    public Transform spawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +34,8 @@ public class BaseShooting : MonoBehaviour
     void Shooter()
     {
 
-        GameObject newProjectile;
-
-        newProjectile = Instantiate(projectile, spawnPoint.transform.position, spawnPoint.transform.rotation);
-
+        GameObject newProjectile = Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
+		newProjectile.GetComponent<BulletMovement>().Initialize(projectileSpeed, side);
         fireCooldown = firerate;
 
     }
