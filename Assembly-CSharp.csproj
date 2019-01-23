@@ -60,11 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BulletMovement.cs" />
-    <Compile Include="Assets\Scripts\DamageInfo.cs" />
-    <Compile Include="Assets\Scripts\Faction.cs" />
-    <Compile Include="Assets\Scripts\Fuel.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\AjdinsStuff\BaseShooting.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/ajdin.talic.LEARNET/Documents/Grupp-2-GameJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
