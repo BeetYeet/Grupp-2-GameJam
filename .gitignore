@@ -3,13 +3,7 @@ Library/metadata/
 Library/PackageCache/
 Library/ShaderCache/
 Temp/
-<<<<<<< HEAD
-Grupp2 GameJam.sln
-.vs/
-obj/Debug/
-=======
 obj/Debug/
 Library/StateCache/
+Library/ScriptAssemblies/
 .vs/
->>>>>>> origin/Rasmus
-Library/shadercompiler-UnityShaderCompiler.exe0.log
