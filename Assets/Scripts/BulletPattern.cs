@@ -12,7 +12,7 @@ public abstract class BulletPattern
 
 	internal void Shoot( float direction )
 	{
-		Quaternion dir = Quaternion.identity * create_from_axis_angle( 0f, 0f, 1f, direction );
+		Quaternion dir = spawnPoint.rotation * create_from_axis_angle( 0f, 0f, 1f, direction );
 		GameObject b = Object.Instantiate( bullet, spawnPoint.position, dir );
 		b.GetComponent<BulletMovement>().Initialize( projectileSpeed, side );
 	}
