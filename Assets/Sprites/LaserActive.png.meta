@@ -1,15 +1,23 @@
 fileFormatVersion: 2
-guid: b0f49fcd6652c154a81e2721f0722b7d
+guid: 9d41b0af51f66d446a9d657b44a453f9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Missile_0
-    21300002: Missile_1
-    21300004: Missile_2
-    21300006: Missile_3
-    21300008: Missile_4
-    21300010: Missile_5
-    21300012: Missile_6
-    21300014: Missile_7
+    21300000: LaserActive_0
+    21300002: LaserActive_1
+    21300004: LaserActive_2
+    21300006: LaserActive_3
+    21300008: LaserActive_4
+    21300010: LaserActive_5
+    21300012: LaserActive_6
+    21300014: LaserActive_7
+    21300016: LaserActive_8
+    21300018: LaserActive_9
+    21300020: LaserActive_10
+    21300022: LaserActive_11
+    21300024: LaserActive_12
+    21300026: LaserActive_13
+    21300028: LaserActive_14
+    21300030: LaserActive_15
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -92,7 +100,167 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Missile_0
+      name: LaserActive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895898bf752a3f343a6e4537038c2efc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0de478a1f9d9b478ca4c5856934106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16da80405d6e2d46914dd69c2ab23f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae09e9584c7d5b4684a6e6353f96ba2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d47da984028bb4ca390a0427efbcc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243dc6aaa0998ea418959d1c15390dcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9dbe9a36aebbb46bf8ec6f9b2bbd57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606829dd91d3ea48810a4ff19a0fd3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserActive_8
       rect:
         serializedVersion: 2
         x: 0
@@ -106,13 +274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e52c3a483f4d814aba6fde6d1a463bb
+      spriteID: 43356e53a8544fb4790d60fe4c2f5746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_1
+      name: LaserActive_9
       rect:
         serializedVersion: 2
         x: 32
@@ -126,13 +294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be0a5286ffe06e44d8021d2044c3d94d
+      spriteID: 57e18233fe5511146ab547812e5010b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_2
+      name: LaserActive_10
       rect:
         serializedVersion: 2
         x: 64
@@ -146,13 +314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e866c64a11a2349b5e885f11bf03c7
+      spriteID: 26dadfb385af4a84ca4a2b89ab03135a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_3
+      name: LaserActive_11
       rect:
         serializedVersion: 2
         x: 96
@@ -166,13 +334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af40029e097ba0a42bad7c2d9e0ed69e
+      spriteID: 0b0d21a207597c64389b455d03e0eb32
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_4
+      name: LaserActive_12
       rect:
         serializedVersion: 2
         x: 128
@@ -186,13 +354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df72c1b0e9de8ba419408f77415f5e22
+      spriteID: 6dcdeffb55444904cafd3d73d9cfc25f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_5
+      name: LaserActive_13
       rect:
         serializedVersion: 2
         x: 160
@@ -206,13 +374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 254458884a53704489cea0966028d74d
+      spriteID: 8c80b9cc26f544c4b9c5873def5751e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_6
+      name: LaserActive_14
       rect:
         serializedVersion: 2
         x: 192
@@ -226,13 +394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce48a0402243da94f8218768d033fbcb
+      spriteID: 7671db9eb7bba2948b90bd6bf102cd05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_7
+      name: LaserActive_15
       rect:
         serializedVersion: 2
         x: 224
@@ -246,7 +414,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10130f46cb5ef024d996051820e4136f
+      spriteID: 7a49b5f99f7aa6f4e9bf07aea38c1b72
       vertices: []
       indices: 
       edges: []
@@ -254,7 +422,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0f0dccf83c239e647aff4a6a3489f64e
+    spriteID: b41a9f395e94fe14da7e8649ff1cec64
     vertices: []
     indices: 
     edges: []

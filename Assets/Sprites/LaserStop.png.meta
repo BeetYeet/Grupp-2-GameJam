@@ -1,15 +1,22 @@
 fileFormatVersion: 2
-guid: b0f49fcd6652c154a81e2721f0722b7d
+guid: 0e1c8dd5a9a0c7b4a924bcefd07b799c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Missile_0
-    21300002: Missile_1
-    21300004: Missile_2
-    21300006: Missile_3
-    21300008: Missile_4
-    21300010: Missile_5
-    21300012: Missile_6
-    21300014: Missile_7
+    21300000: LaserStop_0
+    21300002: LaserStop_1
+    21300004: LaserStop_2
+    21300006: LaserStop_3
+    21300008: LaserStop_4
+    21300010: LaserStop_5
+    21300012: LaserStop_6
+    21300014: LaserStop_7
+    21300016: LaserStop_8
+    21300018: LaserStop_9
+    21300020: LaserStop_10
+    21300022: LaserStop_11
+    21300024: LaserStop_12
+    21300026: LaserStop_13
+    21300028: LaserStop_14
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -92,7 +99,167 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Missile_0
+      name: LaserStop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889a987a301a4d64e86fcbf04b63da1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383c6058ee808ee40ae656ab4cc2f956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef564bb2d33934d9e576b7b671fb2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ce8522a107444aab013fe9ae41544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a428a0ab4dd52d04bb5b195a4b02a581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d743bc7e2e5d090488e55608c7fa9f8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473101871a34b34da4e8ef2ab82cc48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219bb8db98a9d8a4291cd4ed9d910932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStop_8
       rect:
         serializedVersion: 2
         x: 0
@@ -106,13 +273,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e52c3a483f4d814aba6fde6d1a463bb
+      spriteID: 39fcf11aeab2d394f9194f5139f3e5f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_1
+      name: LaserStop_9
       rect:
         serializedVersion: 2
         x: 32
@@ -126,13 +293,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be0a5286ffe06e44d8021d2044c3d94d
+      spriteID: db0e5f6155d4b384c853723124025826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_2
+      name: LaserStop_10
       rect:
         serializedVersion: 2
         x: 64
@@ -146,13 +313,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e866c64a11a2349b5e885f11bf03c7
+      spriteID: ddbeec4a8be6d8948b56266437396839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_3
+      name: LaserStop_11
       rect:
         serializedVersion: 2
         x: 96
@@ -166,13 +333,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af40029e097ba0a42bad7c2d9e0ed69e
+      spriteID: bd831f5e698e85e4fa9e77d89116a813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_4
+      name: LaserStop_12
       rect:
         serializedVersion: 2
         x: 128
@@ -186,13 +353,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df72c1b0e9de8ba419408f77415f5e22
+      spriteID: 51c963a2d5836914ca37baa7d5972db0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_5
+      name: LaserStop_13
       rect:
         serializedVersion: 2
         x: 160
@@ -206,13 +373,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 254458884a53704489cea0966028d74d
+      spriteID: 8568fb9ae69815e4589eb75334a7849f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_6
+      name: LaserStop_14
       rect:
         serializedVersion: 2
         x: 192
@@ -226,27 +393,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce48a0402243da94f8218768d033fbcb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Missile_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10130f46cb5ef024d996051820e4136f
+      spriteID: b99460fd5bfe9284ab972ef4aaa6cb0e
       vertices: []
       indices: 
       edges: []
@@ -254,7 +401,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0f0dccf83c239e647aff4a6a3489f64e
+    spriteID: e43134fa603fa7e4280c8d4b68407af9
     vertices: []
     indices: 
     edges: []

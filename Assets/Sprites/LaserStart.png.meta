@@ -1,15 +1,20 @@
 fileFormatVersion: 2
-guid: b0f49fcd6652c154a81e2721f0722b7d
+guid: 4746321d61a176049ad290b944f6b263
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Missile_0
-    21300002: Missile_1
-    21300004: Missile_2
-    21300006: Missile_3
-    21300008: Missile_4
-    21300010: Missile_5
-    21300012: Missile_6
-    21300014: Missile_7
+    21300000: LaserStart_0
+    21300002: LaserStart_1
+    21300004: LaserStart_2
+    21300006: LaserStart_3
+    21300008: LaserStart_4
+    21300010: LaserStart_5
+    21300012: LaserStart_6
+    21300014: LaserStart_7
+    21300016: LaserStart_8
+    21300018: LaserStart_9
+    21300020: LaserStart_10
+    21300022: LaserStart_11
+    21300024: LaserStart_12
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -92,11 +97,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Missile_0
+      name: LaserStart_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -106,17 +111,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e52c3a483f4d814aba6fde6d1a463bb
+      spriteID: 82f99d7978bdc9a4fa9673babe4e3dd9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_1
+      name: LaserStart_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -126,17 +131,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be0a5286ffe06e44d8021d2044c3d94d
+      spriteID: 1f4e586b4e9b3754098374484c4c097d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_2
+      name: LaserStart_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -146,13 +151,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e866c64a11a2349b5e885f11bf03c7
+      spriteID: ed99cb7256905a941bde12ac6d9a1715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_3
+      name: LaserStart_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e61732e1166b4086ca6b8a511d79d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStart_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49586dfa7ba29245abde5a1a0d2dce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStart_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a6c7624e609b4d819dd2aff5e3e9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStart_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec07f4cc17ec0e49a57c6d68f65e838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStart_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d1ba5d7c0b12348b6c8e9d94c43ca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserStart_8
       rect:
         serializedVersion: 2
         x: 96
@@ -166,13 +271,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af40029e097ba0a42bad7c2d9e0ed69e
+      spriteID: e2f2844e1e736e742b7f5c9ad8117a17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_4
+      name: LaserStart_9
       rect:
         serializedVersion: 2
         x: 128
@@ -186,13 +291,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df72c1b0e9de8ba419408f77415f5e22
+      spriteID: 6179a5ac65d314544b41f342c956d668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_5
+      name: LaserStart_10
       rect:
         serializedVersion: 2
         x: 160
@@ -206,13 +311,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 254458884a53704489cea0966028d74d
+      spriteID: 45693b2cc4519d14aab5040899c7a675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_6
+      name: LaserStart_11
       rect:
         serializedVersion: 2
         x: 192
@@ -226,13 +331,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce48a0402243da94f8218768d033fbcb
+      spriteID: 562060a42e16709499f7c50300e11698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Missile_7
+      name: LaserStart_12
       rect:
         serializedVersion: 2
         x: 224
@@ -246,7 +351,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10130f46cb5ef024d996051820e4136f
+      spriteID: a5e8b7d144e8764459a049a9b1b7b051
       vertices: []
       indices: 
       edges: []
@@ -254,7 +359,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0f0dccf83c239e647aff4a6a3489f64e
+    spriteID: 31f90fdcc3a41e54f9915739b082460a
     vertices: []
     indices: 
     edges: []
