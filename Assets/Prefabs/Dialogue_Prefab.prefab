@@ -48,13 +48,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7155f11325ad22143804fcc7196391d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  dialogueText: {fileID: 0}
+  nameText: {fileID: 1582909661}
+  dialogueText: {fileID: 1532503202}
   dialogueBox: {fileID: 1817406353}
   spelarNamn: Robin
-  dialogueImage: {fileID: 0}
-  bossIcon: {fileID: 21300000, guid: b9a89b62b4399d641aa47752e72f68f3, type: 3}
-  playerIcon: {fileID: 21300000, guid: 579c5a6f7138c144597347ad8acc6a2d, type: 3}
+  dialogueImage: {fileID: 1189619703}
+  bossIcon: {fileID: 21300012, guid: 8d6a8070d25f3404b96c8baeb18d627b, type: 3}
+  playerIcon: {fileID: 21300000, guid: 0bf86eda185c6c9458439ca5963af672, type: 3}
   d_Dialogue:
     sentences: []
   firstSpeaker: Astra
@@ -433,7 +433,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 579c5a6f7138c144597347ad8acc6a2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bf86eda185c6c9458439ca5963af672, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -755,7 +755,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 44bd27bedcbe4ad478cb503c3ca38966, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2e9c97ad4ca21e4ba210e0224fe32f6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -774,7 +774,7 @@ Animator:
   m_GameObject: {fileID: 1817406353}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3e9f965d20b84ce40ad0c3ade2f80d0c, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
