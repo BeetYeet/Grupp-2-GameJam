@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal") * movementSpeed; movement.y = Input.GetAxis("Vertical") * movementSpeed;
-        print(movement/movementSpeed);
+        //print(movement/movementSpeed);
         rb.velocity = movement;
     }
 }
