@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Range(1f,20f)]
+    [Range(1f,10f)]
     public float movementSpeed = 2;
 
     Vector2 movement;
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal") * movementSpeed; movement.y = Input.GetAxis("Vertical") * movementSpeed;
-        print(movement/movementSpeed);
+
         rb.velocity = movement;
     }
 }
